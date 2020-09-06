@@ -11,11 +11,11 @@ window.addEventListener('load', function(){
                         <h3>${teamlist[i].firstName} ${teamlist[i].lastName}</h3>
                         <ul>
                             <li>Hours in space: ${teamlist[i].hoursInSpace}</li>
-                            <li>Active: false</li>
-                            <li>Skills: Physician, Chemical Engineer</li>
+                            <li>Active: ${teamlist[i].active}</li>
+                            <li>Skills: ${teamlist[i].skills}</li>
                         </ul>
                     </div>
-                    <img class="avatar" src="images/mae-jemison.jpg">
+                    <img class="avatar" src= ${teamlist[i].picture}>
                 </div>
                 `
             }
